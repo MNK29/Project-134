@@ -1,0 +1,46 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading{
+    font-size: 50px;
+    font-family: 'Patua One', cursive;
+    margin-top: 0;
+    padding: 20px;
+    background-color: violet;
+    color: purple;
+    text-shadow: 2px 2px palevioletred;
+}
+
+.note{
+    font-size: 25px !important;
+    text-shadow: none !important;
+    color: blueviolet;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 30px;
+}
+
+#status{
+    margin-top: 30px;
+    font-size: 25px;
+    color: lightpink;
+    background-color: rgb(170, 57, 170);
+}
+
+#status:hover{
+    cursor: default;
+}
+
+#found{
+    font-size: 25px;
+    color: black;
+    background-color: greenyellow;
+}
+
+canvas{
+    box-shadow: 1px 1px 20px yellow;
+    border-radius: 10px;
+    margin-top: 40px;
+}
